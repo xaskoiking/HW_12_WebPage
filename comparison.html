@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Components</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-left">
+             <h1><span class="label label-info">
+                 Latitude
+             </span></h1>
+            </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="temp.html">Max Temperature</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+          <li><a href="comparison.html">Comparisons</a></li>
+          <li><a href="data.html">Data</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="thumbnail">
+               <b> <h1 id="myHeader">Comparisons: Latitude vs. X</h1></b>
+               <hr style="width: 100%; color: grey" />
+            <div class="row">
+                 <div class="col-md-6">
+                    <b> <h2 id="myHeader">vs. Max Temperature</h2></b>
+                    <a href="temp.html" title=""><img class="rounded mx-auto d-block" src="Resources/assets/images/Fig1.png"/></a>
+                 </div>
+                 <div class="col-md-6">
+                    <b> <h2 id="myHeader">vs. Humidity</h2></b>
+                    <a href="humidity.html" title=""><img class="rounded mx-auto d-block" src="Resources/assets/images/Fig2.png"/></a>
+                 </div>
+            </div>
+            <div class="row">
+                 <div class="col-md-6">
+                    <b> <h2 id="myHeader">vs. Cloudiness</h2></b>
+                    <a href="cloudiness.html" title=""><img class="rounded mx-auto d-block" src="Resources/assets/images/Fig3.png"/></a>
+                 </div>
+                 <div class="col-md-6">
+                    <b> <h2 id="myHeader">vs. Wind Speed</h2></b>
+                    <a href="windspeed.html" title=""><img class="rounded mx-auto d-block" src="Resources/assets/images/Fig4.png"/></a>
+                 </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+</body>
+
+
+
+</html>
+
+
+

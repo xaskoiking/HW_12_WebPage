@@ -1,0 +1,34 @@
+
+.span4 .img-left {
+    float: left;
+    size: 40
+}
+
+#myHeader {
+    color: darkcyan;
+    text-align: left;
+}
+
+.span5 .img-center {
+    float: center;
+    color: red;
+}
+
+  body {
+    background-color: lightgrey;
+  }
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: darkcyan;
+  }
+}
+
+@media (min-width: 768px) {
+  .dropdown-menu > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+}
