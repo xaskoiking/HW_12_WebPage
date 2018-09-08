@@ -38,8 +38,3 @@
     background: grey;
     padding: 15px;
 }
-
-table, th, td {
-    border: 0.4px solid black;
-    border-collapse: collapse;
-}
